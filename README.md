@@ -12,5 +12,5 @@ This is the codebase for our new and forthcoming homepage redesign. It is in bet
 
 Demo site: http://www.chicagoveg.com/dev/new-main-site-staging/
 
-##What is your licensing
+##What is your licensing policy?
 **Contact us about that. You can reach us on: http://www.chicagoveg.com/contact.htm**
