@@ -1,22 +1,29 @@
 <?php
 		$data = json_decode(file_get_contents('php://input'), true);
-        $name;$email;$message;$captcha;$to;$from;$subject;$body;
+        $name=""; $email=""; $message=""; $captcha=""; $to=""; $from=""; $subject=""; $body="";
 
         if(isset($data['name'])){
           $name=$data['name'];
-        }if(isset($data['email'])){
-          $email=$data['email'];
-        }if(isset($data['message'])){
-          $message=$data['message'];
-        }if(isset($data['g-recaptcha-response'])){
-          $captcha=$data['g-recaptcha-response'];
         }
-        if(!$captcha){
+
+		if(isset($data['email'])){
+          $email=$data['email'];
+        }
+
+		if(isset($data['message'])){
+          $message=$data['message'];
+        }
+
+		if(isset($data['g-recaptcha-response'])){
+          $captcha=$data['g-recaptcha-response'];
+	  }
+
+		if($captcha !== '' && !$captcha){
           http_response_code(400);
           exit;
         }
 
-        $from = 'ChicagoVeg Main site Contact Form'; 
+        $from = 'ChicagoVeg Main site Contact Form';
 		$to = 'info@chicagoveg.com';
 		$subject = 'Message from CVPP Contact Form';
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
