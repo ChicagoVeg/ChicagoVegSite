@@ -5,7 +5,7 @@ body {
 	background: #958b59 url("../images/bkg-pat.jpg") top left repeat;
 	font-size: 1.25em;
 	margin: 0;
-    padding: 0;  
+    padding: 0;
 	font-family: verdana, arial,saerif;
 }
 
@@ -51,12 +51,12 @@ h1 {
 }
 
 /* center caurosel: http://stackoverflow.com/a/10258308/178550; */
-.carousel-inner { 
-	text-align: center; 
+.carousel-inner {
+	text-align: center;
 }
 
-.carousel .item > img { 
-	display: inline-block; 
+.carousel .item > img {
+	display: inline-block;
 }
 
 .cgv-ttl {
@@ -115,8 +115,8 @@ nav {
 	margin: 30px 0 0 0 !important;
 }
 
-.nav a { 
-	background: #848d64 !important; 
+.nav a {
+	background: #848d64 !important;
 	color: #252525 !important;
 	font-family: 'Arimo', sans-serif;
 	font-weight: 400;
@@ -130,7 +130,7 @@ nav {
 	border-top-left-radius: 0 !important;
 	border-top-right-radius: 0 !important;
 	margin: 0 -1px 1px -1px !important;
-	
+
 }
 
 .dropdown-menu > li > a {
@@ -152,28 +152,28 @@ nav {
 	padding: 0 !important;
 }
 
-.nav .active a { 
-	background:#414e13 !important; 
+.nav .active a {
+	background:#414e13 !important;
 	color: #fff !important;
-} 
+}
 
-.nav a:hover { 
-	background:#414e13  !important; 
+.nav a:hover {
+	background:#414e13  !important;
 	color: #fff !important;
-} 
+}
 
-.nav li { 
-	background:none !important; 
+.nav li {
+	background:none !important;
 	margin: 0 1.5px 0 0 !important;
-} 
+}
 
 .navbar {
 	margin-top: 0;
 }
 
 /* ------------- */
-/* 
-Display Dropdown on hover. Influenced by (1)http://codepen.io/Gothburz/pen/GpJKqP and 
+/*
+Display Dropdown on hover. Influenced by (1)http://codepen.io/Gothburz/pen/GpJKqP and
 (2) http://stackoverflow.com/questions/8878033/how-to-make-twitter-bootstrap-menu-dropdown-on-hover-rather-than-click
 */
 nav ul li:hover > ul {
@@ -182,13 +182,13 @@ nav ul li:hover > ul {
 
 
 nav ul ul {
-	position: absolute; 
+	position: absolute;
 }
 /* ------------- */
 
 .menuOptions {
 	padding-right: 5% !important;
-	background-color: transparent !important; 
+	background-color: transparent !important;
 	border: 0px !important;
 }
 
@@ -229,7 +229,7 @@ bold {
    text-align: center !important;
 }
 
-.header-text { 
+.header-text {
 	margin-top: 10px;
 }
 
@@ -255,14 +255,14 @@ bold {
 }
 
 .clearfix {
-	clear: left;	
+	clear: left;
 }
 
 /*.rightside img {
 	border: 2px solid transparent;
     padding: 5px;
-    -webkit-border-image: url("../images/vine400.jpg") 30 round; /* Safari 3.1-5 
-    -o-border-image: url("../images/vine400.jpg") 30 round; /* Opera 11-12.1 
+    -webkit-border-image: url("../images/vine400.jpg") 30 round; /* Safari 3.1-5
+    -o-border-image: url("../images/vine400.jpg") 30 round; /* Opera 11-12.1
     border-image: url("../images/vine400.jpg") 30 round;
     border-radius: 10px;
 }
@@ -364,7 +364,7 @@ bold {
 }
 
 .messageAndEvents {
-	
+
 }
 
 /* contact */
@@ -386,13 +386,17 @@ bold {
     transform-origin:0 0;
 }
 
+.literatureReference {
+	line-height: 1.8em;
+}
+
 /*
 (1)Hack from https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint and http://www.bootply.com/120604#
 to always show the hamburger menu (pattie burger) menu as collapsed sooner than default
 
 (2)This essential is the "mobile"-responsive design
 */
-@media (max-width: 970px) { 
+@media (max-width: 970px) {
     .navbar-header {
         float: none;
     }
@@ -428,7 +432,7 @@ to always show the hamburger menu (pattie burger) menu as collapsed sooner than 
   		display:block !important;
 	}
 
-	.nav a { 
+	.nav a {
 		border-top-left-radius: 0 !important;
 		border-top-right-radius: 0 !important;
 	}

@@ -1,301 +1,406 @@
 <!doctype html>
-<html><head>
+<html>
+  <head>
     <meta http-equiv="Content-Language" content="en-us">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ChicagoVeg - Community for Chicago area vegetarians, vegans, raw foodists, or any veg-curious and their friends. ">
-    <meta name="keywords" content="ChicagoVeg, Chicago Veg, Vegetarian, Vegan, Raw Food, Chicago, Veg, Veggie, Vegetarian organization, Vegan, Raw Foodists, Vegetarians in Chicago, Animal Lover, Conscious Living, Save Planet, Solve Environmental Issues, Chicagoland, Chicago area, Chicago suburbs, Vegs, Veggies, Vegetarians, Vegans, Raw Foodists, Animal Welfare, Personal Health, Alternative Healing, Harmony in Life, Community, organic, IL, illinois, people who care">
-    <title>Singles | ChicagoVeg</title>
-    <link rel="icon" href="./images/favicon.ico" type="image/ico">
-     <link href="./lib/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./styles/style.css" rel="stylesheet">
-    <link href="./lib/css/font-awesome.min.css" rel="stylesheet">
-<body>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ChicagoVeg - Community for Chicago area vegetarians, vegans, raw foodists, or any veg-curious and their friends. ">
+  <meta name="keywords" content="ChicagoVeg, Chicago Veg, Vegetarian, Vegan, Raw Food, Chicago, Veg, Veggie, Vegetarian organization, Vegan, Raw Foodists, Vegetarians in Chicago, Animal Lover, Conscious Living, Save Planet, Solve Environmental Issues, Chicagoland, Chicago area, Chicago suburbs, Vegs, Veggies, Vegetarians, Vegans, Raw Foodists, Animal Welfare, Personal Health, Alternative Healing, Harmony in Life, Community, organic, IL, illinois, people who care">
+  <title>
+    Singles | ChicagoVeg
+  </title>
+  <link rel="icon" href="./images/favicon.ico" type="image/ico">
+  <link href="./lib/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./styles/style.css" rel="stylesheet">
+  <link href="./lib/css/font-awesome.min.css" rel="stylesheet">
+  <body>
     <div class="backframe">
 
-    <header>
+      <header>
         <!-- Do not delete. This is used for providing facebook with an image  -->
-        <div>
-            <img src="./images/ChicagoVeg.jpg" width="1" height="1" alt="information link image">
-        </div>
-    </header>
-    <nav-bar router.bind="router" class="" au-target-id="13">
+      <div>
+        <img src="./images/ChicagoVeg.jpg" width="1" height="1" alt="information link image">
+      </div>
+      </header>
+      <nav-bar router.bind="router" class="" >
 
 
-	<!-- This is always collapsed via a CSS hack () -->
-	<nav class="navbar navbar-default navbar-static menuOptions">
-		<div class="navbar-header">
+        <!-- This is always collapsed via a CSS hack () -->
+        <nav class="navbar navbar-default navbar-static menuOptions">
+          <div class="navbar-header">
 			<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle" aria-expanded="true">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a href="index.html" class="navbar-brand navbar-left">
-				<img class="brand" src="./images/logo.png" alt="ChicagoVeg Restaurants" title="ChicagoVeg Restaurants">
-			</a>
-		</div>
-		<div id="navbarCollapse" class="navbar-collapse navbar-right collapse in" aria-expanded="true">
-			<ul class="nav navbar-nav nav-tab">
-				<li setup-dropdown.bind="row" class="" au-target-id="1">
+              <span class="sr-only">
+                Toggle navigation
+              </span>
+              <span class="icon-bar">
+              </span>
+              <span class="icon-bar">
+              </span>
+              <span class="icon-bar">
+              </span>
+          </button>
+          <a href="index.html" class="navbar-brand navbar-left">
+            <img class="brand" src="./images/logo.png" alt="ChicagoVeg Restaurants" title="ChicagoVeg Restaurants">
+          </a>
+      </div>
+      <div id="navbarCollapse" class="navbar-collapse navbar-right collapse in" aria-expanded="true">
+        <ul class="nav navbar-nav nav-tab">
+          <li setup-dropdown.bind="row" class="" >
 
 
-						<a href.bind="row.href" class="disabled au-target" target.bind="openNewPage(row)" au-target-id="2" href="index.html" target="_self">
-							Home
-						</a>
+            <a href.bind="row.href" class="disabled " target.bind="openNewPage(row)"  href="index.html" target="_self">
+              Home
+            </a>
 
 
 
 
-				</li><li setup-dropdown.bind="row" class="au-target dropdown" au-target-id="1">
-
-
-
-
-
-						<a href.bind="row.href" data-toggle="dropdown" class="dropdown-toggle disabled au-target" au-target-id="5" href="aboutus.html">
-							<span>About Us</span> <span class="caret"></span>
-						</a>
-						<ul role="menu" class="dropdown-menu">
-							<li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href="history.html" target="_self">
-									History
-								</a>
-							</li><li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href="mission.html" target="_self">
-									Mission
-								</a>
-							</li><li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href="donate.html" target="_self">
-									Donate
-								</a>
-							</li><li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href="classifications.html" target="_self">
-									Classifications
-								</a>
-							</li>
-						</ul>
-
-				</li><li setup-dropdown.bind="row" class="au-target dropdown" au-target-id="1">
+          </li>
+          <li setup-dropdown.bind="row" class=" dropdown" >
 
 
 
 
 
-						<a href.bind="row.href" data-toggle="dropdown" class="dropdown-toggle disabled au-target" au-target-id="5" href="programs.html">
-							<span>Programs</span> <span class="caret"></span>
-						</a>
-						<ul role="menu" class="dropdown-menu">
-							<li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href="outreach.html" target="_self">
-									Outreach
-								</a>
-							</li><li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href="cooking.html" target="_self">
-									Cooking
-								</a>
-							</li><li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href="singles.html" target="_self">
-									Singles
-								</a>
-							</li><li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href=" familykids.html" target="_self">
-									Family/Kids
-								</a>
-							</li>
-						</ul>
+            <a href.bind="row.href" data-toggle="dropdown" class="dropdown-toggle disabled "  href="aboutus.html">
+              <span>
+                About Us
+              </span>
 
-				</li><li setup-dropdown.bind="row" class="" au-target-id="1">
+              <span class="caret">
+              </span>
+            </a>
+            <ul role="menu" class="dropdown-menu">
+              <li>
+                <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class=""  href="history.html" target="_self">
+                  History
+                </a>
+              </li>
+              <li>
+                <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class=""  href="mission.html" target="_self">
+                  Mission
+                </a>
+              </li>
+              <li>
+                <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class=""  href="donate.html" target="_self">
+                  Donate
+                </a>
+            </li>
+            </ul>
 
-
-						<a href.bind="row.href" class="disabled au-target" target.bind="openNewPage(row)" au-target-id="2" href="http://www.meetup.com/ChicagoVeg/" target="_blank">
-							Meetup
-						</a>
-
-
-
-
-				</li><li setup-dropdown.bind="row" class="" au-target-id="1">
-
-
-						<a href.bind="row.href" class="disabled au-target" target.bind="openNewPage(row)" au-target-id="2" href="resources.html" target="_self">
-							Resources
-						</a>
-
-
-
-
-				</li><li setup-dropdown.bind="row" class="au-target dropdown" au-target-id="1">
+          </li>
+          <li setup-dropdown.bind="row" class=" dropdown" >
 
 
 
 
 
-						<a href.bind="row.href" data-toggle="dropdown" class="dropdown-toggle disabled au-target" au-target-id="5" href="restaurants.html">
-							<span>Restaurants</span> <span class="caret"></span>
-						</a>
-						<ul role="menu" class="dropdown-menu">
-							<li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href="http://restaurants.chicagoveg.com" target="_blank">
-									Restaurant Finder
-								</a>
-							</li><li>
-								<a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" au-target-id="7" href="http://www.meetup.com/ChicagoVeg/pages/ChicagoVeg_Choice_2015/" target="_blank">
-									ChicagoVeg Choice
-								</a>
-							</li>
-						</ul>
+            <a href.bind="row.href" data-toggle="dropdown" class="dropdown-toggle disabled "  href="programs.html">
+              <span>
+                Programs
+              </span>
 
-				</li><li setup-dropdown.bind="row" class="" au-target-id="1">
+              <span class="caret">
+              </span>
+            </a>
+            <ul role="menu" class="dropdown-menu">
+              <li>
+                <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class=""  href="outreach.html" target="_self">
+                  Outreach
+                </a>
+              </li>
+              <li>
+                <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class=""  href="cooking.html" target="_self">
+                  Cooking
+                </a>
+              </li>
+              <li>
+                <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class=""  href="singles.html" target="_self">
+                  Singles
+                </a>
+              </li>
+              <li>
+                <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class=""  href=" familykids.html" target="_self">
+                  Family/Kids
+                </a>
+              </li>
+            </ul>
+
+          </li>
+          <li setup-dropdown.bind="row" class="" >
 
 
-						<a href.bind="row.href" class="disabled au-target" target.bind="openNewPage(row)" au-target-id="2" href="contact.html" target="_self">
-							Contact Us
-						</a>
+            <a href.bind="row.href" class="disabled " target.bind="openNewPage(row)"  href="http://www.meetup.com/ChicagoVeg/" target="_blank">
+              Meetup
+            </a>
 
 
 
 
-				</li>
-			</ul>
-		</div>
-	</nav>
+          </li>
+          <li setup-dropdown.bind="row" class="">
+              <a href.bind="row.href" class="disabled " target.bind="openNewPage(row)" href="resources.html" target="_self">
+          Resources  <span class="caret">
+          </a>
+              <ul role="menu" class="dropdown-menu">
+                  <li>
+                      <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" href="classifications.html" target="_self">
+              Classifications
+          </a>
+                  </li>
+                  <li>
+                      <a href="whyveg.html" target="_self">
+              Why Veg
+          </a>
+                  </li>
+              </ul>
+          </li>
+          <li setup-dropdown.bind="row" class=" dropdown" >
 
-</nav-bar>
-    <section class="body-content">
+
+
+
+
+            <a href.bind="row.href" data-toggle="dropdown" class="dropdown-toggle disabled "  href="restaurants.html">
+              <span>
+                Restaurants
+              </span>
+
+              <span class="caret">
+              </span>
+            </a>
+            <ul role="menu" class="dropdown-menu">
+              <li>
+                <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class=""  href="http://restaurants.chicagoveg.com" target="_blank">
+                  Restaurant Finder
+                </a>
+              </li>
+              <li>
+                <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class=""  href="http://www.meetup.com/ChicagoVeg/pages/ChicagoVeg_Choice_2015/" target="_blank">
+                  ChicagoVeg Choice
+                </a>
+              </li>
+            </ul>
+
+          </li>
+          <li setup-dropdown.bind="row" class="" >
+
+
+            <a href.bind="row.href" class="disabled " target.bind="openNewPage(row)"  href="contact.html" target="_self">
+              Contact Us
+            </a>
+
+
+
+
+          </li>
+        </ul>
+      </div>
+      </nav>
+
+      </nav-bar>
+      <section class="body-content">
         <article>
-        <div class="text-center  bolder header-text" style="display:none;">
+          <div class="text-center  bolder header-text" style="display:none;">
             <h2>
-             ChicagoVeg
-         </h2>
-         For Earth ~ For Animals ~ For You
-     </div>
-      <div class="tab-content">
-     <router-view class="" au-target-id="14">
+              ChicagoVeg
+          </h2>
+          For Earth ~ For Animals ~ For You
+          </div>
+          <div class="tab-content">
+            <router-view class="" >
 
-<h4>ChicagoVeg Singles</h4>
-<img class="rightside" src="./images/singles1.jpeg" height="50%">
-<p class="subtext">
-ChicagoVeg Singles is a specialized ChicagoVeg program to enable members to socialize, network, and make connections with other singles who are interested in a vegan lifestyle! The meetups will provide the opportunity for members to mix &amp; mingle in a fun, relaxed atmosphere to meet like-minded singles. </p>
+              <h4>
+                ChicagoVeg Singles
+              </h4>
+              <img class="rightside" src="./images/singles1.jpeg" height="50%">
+              <p class="subtext">
+                ChicagoVeg Singles is a specialized ChicagoVeg program to enable members to socialize, network, and make connections with other singles who are interested in a vegan lifestyle! The meetups will provide the opportunity for members to mix &amp; mingle in a fun, relaxed atmosphere to meet like-minded singles.
+              </p>
 
-<p class="subtext">
+              <p class="subtext">
 
-ChicagoVeg Singles events are a great opportunity to:
-</p><ul class="subtext">
-<li>Meet new people</li>
-<li>Find Friendship</li>
-<li>Connect with someone special!</li>
-</ul>
-<p></p>
+                ChicagoVeg Singles events are a great opportunity to:
+              </p>
+              <ul class="subtext">
+                <li>
+                  Meet new people
+                </li>
+                <li>
+                  Find Friendship
+                </li>
+                <li>
+                  Connect with someone special!
+                </li>
+              </ul>
+              <p>
+              </p>
 
-<p class="subtext">
-We support a non-judgmental environment where everybody is welcome to join in our meetups regardless of their age, race, religion, sexual orientation or other preferences. Our meetups will be dedicated to providing a wide variety of events, where our members meet face-to-face, in a fun and friendly environment.</p>
+              <p class="subtext">
+                We support a non-judgmental environment where everybody is welcome to join in our meetups regardless of their age, race, religion, sexual orientation or other preferences. Our meetups will be dedicated to providing a wide variety of events, where our members meet face-to-face, in a fun and friendly environment.
+              </p>
 
-<h5>
-OUR SUCCESS STORY
-</h5>
+              <h5>
+                OUR SUCCESS STORY
+              </h5>
 
-<p>
-<img style="float:left; margin:10px;" src="./images/singles2.jpeg">
-</p>
+              <p>
+                <img style="float:left; margin:10px;" src="./images/singles2.jpeg">
+              </p>
 
-<p class="subtext">
-Some of you may remember our first ChicagoVeg Singles event at Heartland Cafe.
-It was where and when Siri and Ami met back in December, 2010. Many of you may have met them at many ChicagoVeg subsequent events (Siri was helping to organize many of them!) which they mostly attended together. They got married on May 12, 2012 and, as of now, are house hunting for their new home. We wish them a happy and a long lasting relationship together!
-</p>
+              <p class="subtext">
+                Some of you may remember our first ChicagoVeg Singles event at Heartland Cafe.
+                It was where and when Siri and Ami met back in December, 2010. Many of you may have met them at many ChicagoVeg subsequent events (Siri was helping to organize many of them!) which they mostly attended together. They got married on May 12, 2012 and, as of now, are house hunting for their new home. We wish them a happy and a long lasting relationship together!
+              </p>
 
-<p class="subtext">
-Here is the link to te meetup page: <a href="http://www.meetup.com/ChicagoVeg/pages/ChicagoVeg_Singles/" target="_blank">http://www.meetup.com/ChicagoVeg/pages/ChicagoVeg_Singles/</a>
-</p>
+              <p class="subtext">
+                Here is the link to te meetup page:
+                <a href="http://www.meetup.com/ChicagoVeg/pages/ChicagoVeg_Singles/" target="_blank">
+                  http://www.meetup.com/ChicagoVeg/pages/ChicagoVeg_Singles/
+                </a>
+              </p>
 
-<p class="subtext">
-Please don't hesitate to contact us for any questions or if you would like to help organize ChicagoVeg Singles events. Check out our upcoming events here.
-</p>
+              <p class="subtext">
+                Please don't hesitate to contact us for any questions or if you would like to help organize ChicagoVeg Singles events. Check out our upcoming events here.
+              </p>
 
-</router-view>
-     </div>
-     </article>
-</section>
+            </router-view>
+          </div>
+      </article>
+      </section>
 
-<div class="bottom">
-
-
-<h6>Sponsors</h6>
-	<div class="sponsor-group">
-	     <div class="left1"><a href="http://http://www.amazingkaleburger.com/" target="_blank" title="Kale Burger"><img src="./images/kaleburger.jpg" alt="Kale Burger" lazyload=""></a>
-	     </div>
-	     <div class="left2"><a href="http://www.meetup.com/ChicagolandTaiChi/" target="_blank" title="Chicagoland Tai Chi"><img src="./images/chicagolandtaichi.jpg" alt="Chicagoland Tai Chi" lazyload=""></a>
-	     </div>
-	     <div class="left3"><a href="https://smile.amazon.com/ch/46-1670886" target="_blank" title="Smile Amazon"><img src="./images/smile-amazon.jpg" alt="Smile Amazon" lazyload=""></a>
-	     </div>
-	 </div>
-	<div class="sponsor-group">
-	     <div class="left1"><a href="https://www.facebook.com/PurpleSproutCafe" target="_blank" title="Purple Sprout Cafe"><img src="./images/purplesproutcafe.jpg" alt="Purple Sprout Cafe" lazyload=""></a>
-	     </div>
-	     <div class="left2"><a href="http://http://quesadillalareinadelsur.com/" target="_blank" title="Quesadilla La Reina del Sur"><img src="./images/quesadillalareina.png" alt="Quesadilla La Reina del Sur" lazyload=""></a>
-	     </div>
-	     <div class="left3"><a href="http://http://chicago.veggiepride.com/" target="_blank" title="Chicago Veggie Pride"><img src="./images/chicagoveggiepride.jpg" alt="Chicago Veggie Pride" lazyload=""></a>
-	     </div>
-	 </div>
+      <div class="bottom">
 
 
+        <h6>
+          Sponsors
+        </h6>
+        <div class="sponsor-group">
+          <div class="left1">
+            <a href="http://http://www.amazingkaleburger.com/" target="_blank" title="Kale Burger">
+              <img src="./images/kaleburger.jpg" alt="Kale Burger" lazyload="">
+            </a>
+          </div>
+          <div class="left2">
+            <a href="http://www.meetup.com/ChicagolandTaiChi/" target="_blank" title="Chicagoland Tai Chi">
+              <img src="./images/chicagolandtaichi.jpg" alt="Chicagoland Tai Chi" lazyload="">
+            </a>
+          </div>
+          <div class="left3">
+            <a href="https://smile.amazon.com/ch/46-1670886" target="_blank" title="Smile Amazon">
+              <img src="./images/smile-amazon.jpg" alt="Smile Amazon" lazyload="">
+            </a>
+          </div>
         </div>
-	<div class="facebook">
-        <h6>Like Us On Facebook!</h6>
-            <div id="fb-root" class=" fb_reset">
-            <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="sponsor-group">
+          <div class="left1">
+            <a href="https://www.facebook.com/PurpleSproutCafe" target="_blank" title="Purple Sprout Cafe">
+              <img src="./images/purplesproutcafe.jpg" alt="Purple Sprout Cafe" lazyload="">
+            </a>
+          </div>
+          <div class="left2">
+            <a href="http://http://quesadillalareinadelsur.com/" target="_blank" title="Quesadilla La Reina del Sur">
+              <img src="./images/quesadillalareina.png" alt="Quesadilla La Reina del Sur" lazyload="">
+            </a>
+          </div>
+          <div class="left3">
+            <a href="http://http://chicago.veggiepride.com/" target="_blank" title="Chicago Veggie Pride">
+              <img src="./images/chicagoveggiepride.jpg" alt="Chicago Veggie Pride" lazyload="">
+            </a>
+          </div>
+        </div>
 
-<div class="fb-page" data-href="https://www.facebook.com/chicagoveg" data-width="400" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/chicagoveg"><a href="https://www.facebook.com/chicagoveg">ChicagoVeg - Chicagoland Vegetarian, Vegan, and Raw Foodist Community</a></blockquote></div></div>
+
+      </div>
+      <div class="facebook">
+        <h6>
+          Like Us On Facebook!
+      </h6>
+      <div id="fb-root" class=" fb_reset">
+        <div id="fb-root">
+        </div>
+        <script>
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+           (document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <div class="fb-page" data-href="https://www.facebook.com/chicagoveg" data-width="400" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/chicagoveg">
+              <a href="https://www.facebook.com/chicagoveg">
+                ChicagoVeg - Chicagoland Vegetarian, Vegan, and Raw Foodist Community
+              </a>
+            </blockquote>
+          </div>
+        </div>
 
 
-</div>	</div>
-</div>
-<footer>
+      </div>
+
+      </div>
+  </div>
+  <footer>
 
 
 	<div class="copyright">
-		© <span>2016</span> - <a href="http://chicagoveg.com/" target="_blank"><span class="">ChicagoVeg</span></a> &nbsp; | &nbsp; <a href="mailto:restaurants@chicagoveg.com?Subject=Feedback on Restaurant Application" target="_blank"> Feedback</a>
+      ©
+      <span>
+        2016
+      </span>
+      -
+      <a href="http://chicagoveg.com/" target="_blank">
+        <span class="">
+          ChicagoVeg
+        </span>
+      </a>
+      &nbsp; | &nbsp;
+      <a href="mailto:restaurants@chicagoveg.com?Subject=Feedback on Restaurant Application" target="_blank">
+        Feedback
+      </a>
 
-	</div>
-	<div class="social">
-		<ul class="list-inline">
-			<li>
-                <a href="javascript:void(0)" class="v-data-socialmedia-link" data-url="http://twitter.com/share?text=Check out ChicagoVeg- ;url=" data-top="500" data-left="500" data-width="400" data-height="400" au-target-id="20">
-					<img src="./images/twitter.png" lazyload="">
-				</a>
-			</li>
-			<li>
-	<a href="javascript:void(0)" class="v-data-socialmedia-link" data-url="https://plus.google.com/share?url" data-top="500" data-left="500" data-width="400" data-height="400" >
-                	<img src="./images/google_plus.png" lazyload="">
-				</a>
-			</li>
-			<li>
-				<a href="./contact.html" >
-					<img src="./images/email.png" lazyload="">
-				</a>
-			</li>
-			<li>
-				<a href="http://www.meetup.com/ChicagoVeg/" target="_blank">
-					<img src="./images/meetup.png" lazyload="">
-				</a>
-			</li>
-		</ul>
-	</div>
+  </div>
+  <div class="social">
+    <ul class="list-inline">
+      <li>
+        <a href="javascript:void(0)" class="v-data-socialmedia-link" data-url="http://twitter.com/share?text=Check out ChicagoVeg- ;url=" data-top="500" data-left="500" data-width="400" data-height="400" >
+          <img src="./images/twitter.png" lazyload="">
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)" class="v-data-socialmedia-link" data-url="https://plus.google.com/share?url" data-top="500" data-left="500" data-width="400" data-height="400" >
+          <img src="./images/google_plus.png" lazyload="">
+        </a>
+      </li>
+      <li>
+        <a href="./contact.html" >
+          <img src="./images/email.png" lazyload="">
+        </a>
+      </li>
+      <li>
+        <a href="http://www.meetup.com/ChicagoVeg/" target="_blank">
+          <img src="./images/meetup.png" lazyload="">
+        </a>
+      </li>
+    </ul>
+  </div>
 
 
-</footer>
+  </footer>
 
 
-</body>
-<script src="./lib/js/jQuery.min.js"></script>
-<script src="./lib/js/bootstrap.min.js"></script>
-<script src="./src/js/socialMedia.js"></script>
-</html>
+  </body>
+  <script src="./lib/js/jQuery.min.js">
+  </script>
+  <script src="./lib/js/bootstrap.min.js">
+  </script>
+  <script src="./src/js/socialMedia.js">
+  </script>
+  </html>
