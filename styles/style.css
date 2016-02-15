@@ -301,6 +301,12 @@ bold {
 	overflow: overlay;
 	word-wrap: break-word;
 	margin: 1px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.stbox a {
+	text-decoration: none;
 }
 
 .sponsor-group {
@@ -403,6 +409,10 @@ float: right;
 .singles-image {
 	width: 45em;
 	    height: 43em;
+}
+
+.statementBox-headText {
+	color: Black;
 }
 
 @media screen and (max-width: 1190) {
