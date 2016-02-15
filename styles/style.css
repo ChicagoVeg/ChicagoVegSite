@@ -310,6 +310,16 @@ bold {
    width: 65%;
    margin-bottom: 10px;
 }
+
+.facebookPagePluginArea {
+float: right;
+}
+
+.bottom-sponsors {
+	margin-top: 10px;
+}
+
+
 .left1{
    position: relative;
    float: left;
@@ -388,6 +398,22 @@ bold {
 
 .literatureReference {
 	line-height: 1.8em;
+}
+
+.singles-image {
+	width: 45em;
+	    height: 43em;
+}
+
+@media screen and (max-width: 1190) {
+	.facebookPagePluginArea {
+	/*	margin-left: auto;
+	    margin-right: auto;
+	    width: 25em;
+		float: left;
+		*/
+float: none;
+	}
 }
 
 /*
