@@ -133,6 +133,7 @@ nav {
 
 }
 
+
 .dropdown-menu > li > a {
   line-height: 0 !important;
   padding: 15px 20px !important;
@@ -424,6 +425,13 @@ float: right;
 		*/
 float: none;
 	}
+}
+
+/* Hack. Singles-image needs to be addressed  so this is not needed */
+@media (max-width:900px) {
+	.singles-image {
+		height: 50%;
+		width: 50%;
 }
 
 /*
