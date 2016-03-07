@@ -102,6 +102,7 @@ h6 {
 	font-weight: 400;
 	color: #958b59;
 	font-family: 'Arimo', sans-serif;
+	width: 100%;
 }
 
 /*adjust branding*/
@@ -201,6 +202,19 @@ nav ul ul {
 	 margin-left: auto;
     margin-right: auto;
     width: 25em;
+}
+
+.donate {
+	 margin: 0 auto !important;
+}
+
+.center-content {
+	margin: 0 auto !important;
+	width: 50%;
+	margin-top: 20px;
+	border: 1px solid #9ab859;
+    padding: 7px;
+    margin: 10px;
 }
 
 bold {
@@ -425,6 +439,20 @@ float: right;
 		*/
 float: none;
 	}
+}
+
+/*Mobile CSS phone size*/
+
+@media (max-width: 700px) {
+
+	.rightside {
+		display: none;
+	}
+	
+	.stbox {
+		width: 100%;
+	}
+
 }
 
 /* Hack. Singles-image needs to be addressed  so this is not needed */
