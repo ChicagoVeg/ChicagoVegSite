@@ -205,7 +205,12 @@ nav ul ul {
 }
 
 .donate {
-	 margin: 0 auto !important;
+	width: 50%;
+	float: right;
+	margin-top: 20px;
+	border: 1px solid #9ab859;
+    padding: 7px;
+    margin: 10px;
 }
 
 .center-content {
@@ -449,12 +454,22 @@ float: none;
 		display: none;
 	}
 	
+	.leftside {
+		width: 100%;
+	}
+	
 	.stbox {
 		width: 100%;
 	}
 
 	.centering {
 	    width: 100%;
+	}
+
+	.donate {
+		width: 100%;
+		float: left;
+		border: none;
 	}
 
 }
