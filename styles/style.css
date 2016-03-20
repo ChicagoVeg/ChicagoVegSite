@@ -318,8 +318,12 @@ bold {
    margin-bottom: 10px;
 }
 
-.facebookPagePluginArea {
-float: right;
+.sponsor-text {
+	color:#ebe8dd;
+	font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 2em;
 }
 
 .bottom-sponsors {
@@ -416,14 +420,10 @@ float: right;
 	color: Black;
 }
 
-@media screen and (max-width: 1190) {
-	.facebookPagePluginArea {
-	/*	margin-left: auto;
-	    margin-right: auto;
-	    width: 25em;
-		float: left;
-		*/
-float: none;
+
+@media (max-width: 569px){
+	.contact-line {
+		width: 55%;
 	}
 }
 
