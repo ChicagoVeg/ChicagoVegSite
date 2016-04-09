@@ -25,7 +25,7 @@
 
         $from = 'ChicagoVeg Main site Contact Form';
 		$to = 'info@chicagoveg.com';
-		$subject = 'Message from CVPP Contact Form';
+		$subject = 'Message from ChicagoVeg Contact Form';
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
 		session_start();
