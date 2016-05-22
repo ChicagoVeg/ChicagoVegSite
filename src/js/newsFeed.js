@@ -89,15 +89,21 @@
 
                            var feedcontainer=document.getElementById("feeddiv")
                            var feedlimit=16
-                           var rssoutput= '<ul class="subtext">'; 
+                           var rssoutput= '<ul class="subtext">';
                            var theDate ='';
-                           var thefeeds=result.feed.entries
+                           var thefeeds=result.feed.entries;
+                           var title;
+
                                      for (var i=0; i<thefeeds.length; i++) {
                                          theDate = new Date(thefeeds[i].date_ms); //.customFormat('#MM# #DD#  #YYYY#    #hh#:#mm#"');
 
+                                         var title = thefeeds[i].title;
+                                         title = (title.indexOf('Member: ') === 0) // true if "Member:" is first substring
+                                                    ? 'New ' + title
+                                                    : title;
 
 
- rssoutput+="<li> " +  theDate.getMonthFromNumber(theDate.getMonth()) + " " + theDate.getDate() + ','  + ' ' + theDate.getFullYear() +  ": <a href='" + thefeeds[i].link + "' target='_new'>" + thefeeds[i].title + "</a></li>"
+ rssoutput+="<li> " +  theDate.getMonthFromNumber(theDate.getMonth()) + " " + theDate.getDate() + ','  + ' ' + theDate.getFullYear() +  ": <a href='" + thefeeds[i].link + "' target='_new'>" + title + "</a></li>"
                                          //rssoutput+="<li> " + thefeeds[i].date.substr(0,16) + ": <a href='" + thefeeds[i].link + "' target='_new'>" + thefeeds[i].title + "</a></li>"
                                  }
                                      rssoutput+="</ul>"

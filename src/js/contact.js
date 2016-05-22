@@ -1,4 +1,4 @@
-/
+
 ;(function ($) {
 	'use strict';
 
@@ -19,7 +19,7 @@
 
 $.ajax({
 	method: "POST",
-	url: "src/php/form.php",
+	url:  window.location.href.replace('contact.html', 'src/php/form.php'),   // This is a bad way of doing this. TODO: Refactor later.
 	cache: false,
 dataTpe: 'json',
 	data: JSON.stringify({
