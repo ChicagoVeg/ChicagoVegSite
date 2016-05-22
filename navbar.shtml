@@ -28,6 +28,12 @@
                                 </a>
                                 <ul role="menu" class="dropdown-menu">
                                     <li>
+                                        <a href="news.html" target="_self">
+									News
+								</a>
+                                    </li>
+
+                                    <li>
                                         <a href.bind="subMenu.href" target.bind="openNewPage(subMenu)" class="" href="history.html" target="_self">
 									History
 								</a>
