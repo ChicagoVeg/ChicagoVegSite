@@ -13,7 +13,7 @@
     <link href="./lib/css/bootstrap.min.css" rel="stylesheet">
     <link href="./styles/style.css" rel="stylesheet">
     <link href="./lib/css/font-awesome.min.css" rel="stylesheet">
-</head>
+
     <body data-highlightselectedtabbyid="contactus">
         <div class="backframe">
 
@@ -40,7 +40,7 @@
                             <h4>Contact Us</h4>
                             <br>
                             <div class="centering subtext">
-                                <div id="sending-message-spinner">
+                                <div show.bind="messageInPreparation" class="">
                                     <form id="contactForm" method="post" action="src/php/form.php">
                                         <div class="form-group">
                                             <label for="nameBox">Name</label>
@@ -92,8 +92,7 @@
     <!-- external scripts-->
     <script src="./lib/js/jQuery.min.js"></script>
     <script src="./lib/js/bootstrap.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" defer></script>
-    <script src="./lib/js/spin.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' defer></script>
 
     <!-- internal scripts-->
     <script src="./src/js/contact.js"></script>
