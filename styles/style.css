@@ -347,6 +347,14 @@ bold {
     font-weight: 500;
     font-size: 1.5em;
     line-height: 2em;
+	margin-bottom: 0 !important; /*override twbs*/
+}
+
+.sponsors-list li{
+	border-style: solid;
+	border-width: thin;
+	padding: 0;
+	margin: 2px;
 }
 
 .bottom-sponsors {
@@ -410,6 +418,19 @@ bold {
 .messageAndEvents {
 
 }
+
+
+/*facebook*/
+.fb-center {
+	margin-left: auto;
+   margin-right: auto;
+    display: table;
+}
+
+.fb-comments, .fb-comments iframe[style] {
+	width: 100% !important;
+}
+
 
 /* contact */
 .google-recapcha-iframe {

@@ -23,7 +23,8 @@
           exit;
         }
 
-    $to = 'info@chicagoveg.com';
+/*     $to = 'greenish_green@chicagoveg.com'; */
+   $to = 'info@chicagoveg.com';
 	$subject = 'Message from ChicagoVeg site';
 	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 	$headers = "Reply-To: $email" . "\r\n" ;

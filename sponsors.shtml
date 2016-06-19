@@ -1,7 +1,7 @@
 <div class="text-center">
     <div>
     <p class="text-center sponsor-text">Sponsors</p>
-    <ul class="list-inline">
+    <ul class="list-inline sponsors-list ">
         <li>
             <a href="http://www.amazingkaleburger.com/" target="_blank" title="Kale Burger">
              <img src="./images/kaleburger.jpg" class="sponsor-image" alt="Kale Burger" width="166" height="120"   lazyload="">
