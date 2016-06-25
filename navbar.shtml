@@ -11,7 +11,7 @@
                                 <img class="brand" src="./images/logo.png" alt="ChicagoVeg Main site brand image" title="ChicagoVeg Main site brand image">
                             </a>
                         </div>
-                        <div id="navbarCollapse" class="navbar-collapse navbar-right collapse in" aria-expanded="true">
+                        <div id="navbarCollapse" class="navbar-collapse navbar-right collapse in" aria-expanded="false">
                             <ul class="nav navbar-nav nav-tab">
                                 <li id="home" class="">
                                     <a  class="disabled "  href="index.html" target="_self">
