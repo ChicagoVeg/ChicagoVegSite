@@ -68,6 +68,14 @@ h3 {
 	font-size: 2.5em;
 }
 
+.carousel-caption h3 {
+	padding: 8px 20px; 
+	width: 100%;
+	font-size: 1em;
+	margin-left: -380px;
+	margin-bottom: -50px;	
+}	
+
 h4 {
 	color: #d2801f;
 	font-family: 'Arimo', sans-serif;
@@ -469,6 +477,24 @@ bold {
 	.contact-line {
 		width: 55%;
 	}
+	
+	.carousel-caption h3 {
+		display: none;	
+	}	
+	
+	nav {
+		margin: 0 !important;
+	}
+	
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  		border-color: transparent;
+	}
+	
+	.fb-center p {
+		text-align: left !important;	
+	}
+	
+	
 }
 
 /*Mobile CSS phone size*/
@@ -495,6 +521,19 @@ bold {
 		width: 100%;
 		float: left;
 		border: none;
+	}
+	
+	.carousel-caption h3 {
+		display: none;	
+	}
+	nav {
+		margin: 0 !important;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  		border-color: transparent;
+	}
+	.fb-center p {
+		text-align: left !important;	
 	}
 
 }
@@ -548,8 +587,18 @@ to always show the hamburger menu (pattie burger) menu as collapsed sooner than 
   		display:block !important;
 	}
 
+	nav {
+		margin: 0 !important;
+	}
+	
 	.nav a {
 		border-top-left-radius: 0 !important;
 		border-top-right-radius: 0 !important;
+	}
+	.carousel-caption h3 {
+		display:none;	
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  		border-color: transparent;
 	}
 }
