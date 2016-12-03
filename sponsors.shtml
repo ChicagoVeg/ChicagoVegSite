@@ -1,7 +1,7 @@
 <div class="text-center">
     <div>
     <p class="text-center sponsor-text">Sponsors</p>
-        
+
     <ul class="list-inline sponsors-list ">
         <li>
             <a href="http://www.amazingkaleburger.com/" target="_blank" title="Kale Burger">
@@ -19,8 +19,8 @@
             </a>
         </li>
         <li>
-            <a href="http://chicago.veggiepride.com/"  target="_blank" title="Chicago Veggie Pride">
-                <img src="./images/chicagoveggiepride.jpg" class="sponsor-image" alt="Chicago Veggie Pride"  width="166" height="120" lazyload="">
+            <a href="https://www.nativefoods.com"  target="_blank" title="Native Foods">
+                <img src="./images/nativeFoods.jpg" class="sponsor-image" alt="Native Foods"  width="166" height="120" lazyload="">
             </a>
 </li>
         <li>
