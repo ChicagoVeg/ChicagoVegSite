@@ -31,7 +31,7 @@
 
       <li>
           <a href="https://www.plantimeals.com"  target="_blank" title="Planti Meals">
-              <img src="./images/planti.jpg" class="sponsor-image" alt="Planti meals pic"  width="166" height="120" lazyload="">
+              <img src="./images/planti.png" class="sponsor-image" alt="Planti meals pic"  width="166" height="120" lazyload="">
           </a>
       </li>
 
@@ -46,7 +46,12 @@
           <a href="https://smile.amazon.com/ch/46-1670886"  target="_blank" title="Smile Amazon">
               <img src="./images/smile-amazon.jpg" class="sponsor-image" alt="Smile Amazon"  width="166" height="120" lazyload="">
           </a>
-  </li>
+     </li>
+     <li>
+         <a href="https://www.malmanlaw.com"  target="_blank" title="Malman Law">
+             <img src="./images/MalmanLogo.png" class="sponsor-image" alt="Malman Law"  width="166" height="120" lazyload="">
+         </a>
+    </li>
       </ul>
   </div>
   </div>
