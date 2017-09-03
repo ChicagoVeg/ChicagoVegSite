@@ -30,12 +30,6 @@
       </li>
 
       <li>
-          <a href="https://www.plantimeals.com"  target="_blank" title="Planti Meals">
-              <img src="./images/planti.png" class="sponsor-image" alt="Planti meals pic"  width="166" height="120" lazyload="">
-          </a>
-      </li>
-
-      <li>
           <a href="http://www.kalishvegan.com"  target="_blank" title="Kalish Vegan">
               <img src="./images/Kalish_Logo.png" class="sponsor-image" alt="Kalish Vegan restaurant pic"  width="166" height="120" lazyload="">
           </a>
