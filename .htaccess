@@ -1,2 +1,3 @@
 AddHandler server-parsed .html
 AddType application/x-httpd-php .shtml
+Header set Access-Control-Allow-Origin "*"
