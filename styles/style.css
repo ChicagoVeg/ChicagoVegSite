@@ -307,19 +307,23 @@ bold {
 }
 
 .missionStatement {
-	background-color: #d2801f;
+	background-color: #D2801E !important;
+    padding: 0 10px;
 }
 
 .whyVegStatement {
-	background-color: #e2001f;
+	background-color: #E52B50  !important;
+    padding: 0 10px;
 }
 
 .donateStatement {
-	background-color: #958b59;
+	background-color: #958b59 !important;
+   padding: 0 10px;
 }
 
 .programStatement {
-	background-color: #7c415d;
+	background-color: #7c415d !important;
+    padding: 0 10px;
 }
 
 .displayInline {
@@ -477,7 +481,25 @@ bold {
 
 .statementBox-headText {
 	color: Black;
+	text-align: center;
 }
+
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+	justify-content: center;
+	margin-top: 15px;
+  }
+  
+
+.flex-container > div {
+    width: 19rem;
+    height: 16rem;
+    margin: 8px;
+}
+
 
 
 @media (max-width: 569px){
