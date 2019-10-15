@@ -489,7 +489,7 @@ bold {
 	display: flex;
 	flex-wrap: wrap;
 	width:100%;
-	justify-content: center;
+	justify-content: space-between;
 	margin-top: 15px;
   }
   
@@ -497,7 +497,6 @@ bold {
 .flex-container > div {
     width: 19rem;
     height: 16rem;
-    margin: 8px;
 }
 
 
@@ -563,6 +562,10 @@ bold {
 	}
 	.fb-center p {
 		text-align: left !important;	
+	}
+
+	.flex-container {
+		justify-content: center;
 	}
 
 }
