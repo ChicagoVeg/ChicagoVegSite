@@ -482,6 +482,8 @@ bold {
 .statementBox-headText {
 	color: Black;
 	text-align: center;
+	margin-top: 5px !important;
+    margin-bottom: 5px !important
 }
 
 
@@ -496,7 +498,7 @@ bold {
 
 .flex-container > div {
     width: 28rem;
-    height: 14rem;
+    height: 13rem;
 }
 
 
