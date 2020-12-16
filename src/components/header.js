@@ -141,21 +141,21 @@ const Header = ({ siteTitle }) => {
   }
   
 
-  const menu = menuItems.map((item) => {
+  const menu = menuItems.map((item, index) => {
     return item.children && item.children.length > 0 ? (
-      <div className="dropdown" role="button" onMouseEnter={(e) => setActive(e, true)} onMouseLeave={(e) => setActive(e, false)}>
+      <div className="dropdown" key={`${item.title.replace(/\s/g, '')}${index}Div`} role="button" onMouseEnter={(e) => setActive(e, true)} onMouseLeave={(e) => setActive(e, false)}>
         <Link to={item.link}>{item.title}</Link>
         <button className="dropbtn pointer">
           <FontAwesomeIcon icon={faCaretDown} size="1x" />
         </button>
         <div className="dropdown-content">
-          {item.children.map((subItem) => (
-            <Link to={subItem.link}>{subItem.title}</Link>
+          {item.children.map((subItem, index) => (
+            <Link to={subItem.link} key={`${subItem.title.replace(/\s/g, '')}${index}`}>{subItem.title}</Link>
           ))}
         </div>
       </div>
     ) : (
-      <Link to={item.link}  onMouseEnter={(e) => setActive(e, true)} onMouseLeave={(e) => setActive(e, false)}>
+      <Link to={item.link} key={`${item.title.replace(/\s/g, '')}${index}Link`} onMouseEnter={(e) => setActive(e, true)} onMouseLeave={(e) => setActive(e, false)}>
         {item.title}
       </Link>
     );

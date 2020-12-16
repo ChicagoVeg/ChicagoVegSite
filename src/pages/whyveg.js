@@ -39,7 +39,6 @@ const WhyVegPage = () => (
               animals are the primary consumers of water in the United States.{" "}
             </li>
           </ol>
-        <p className="">
           <h4>For the Animals</h4>
           <ol className="">
             <li>
@@ -64,8 +63,6 @@ const WhyVegPage = () => (
               castrated, mutilated, and violently killed without anesthesia.
             </li>
           </ol>
-        </p>
-        <p className="">
           <h4>For Your Heath</h4>
           <ol className="">
             <li> Vegetarians are 25-50% less likely to suffer from cancer.</li>
@@ -87,7 +84,6 @@ const WhyVegPage = () => (
               in the prevention and treatment of certain diseases.
             </li>
           </ol>
-        </p>
         <p className="text-center">
           <span className="italics underline">
             <a href={require('../files/WhyVeg_Flyer.pdf')}>
@@ -98,7 +94,6 @@ const WhyVegPage = () => (
 
         <hr />
         <h3>REFERENCES</h3>
-        <p className="">
           <h4> For the Planet: </h4>
           <ol className=" literatureReference">
             <li>
@@ -147,9 +142,7 @@ const WhyVegPage = () => (
               </ol>
             </li>
           </ol>
-        </p>
-        <p className="">
-          <h4>For the Animals</h4>
+         <h4>For the Animals</h4>
           <ol className=" literatureReference">
             <li>
               {" "}
@@ -161,8 +154,7 @@ const WhyVegPage = () => (
               New Slant on Chump Chops,” Cambridge Daily News, 29 Mar. 2002.{" "}
             </li>
           </ol>
-        </p>
-        <p className="">
+    
           <h4>For Your Health</h4>
           <ol className="">
             <li>
@@ -204,7 +196,7 @@ const WhyVegPage = () => (
               Association). www.eatright.org
             </li>
           </ol>
-        </p>
+
       </article>
     </section>
   </Layout>
