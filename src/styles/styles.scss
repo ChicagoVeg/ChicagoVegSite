@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Mada;
+    src: url('../fonts/Mada-Regular.ttf');
+}
+  
+//@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import 'base';
+@import 'nav';
+@import 'layout';
+@import 'theme';
+@import 'index';
+@import 'info';
+@import 'donate';
+@import 'singles';
+@import 'contact';

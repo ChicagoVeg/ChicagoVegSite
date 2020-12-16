@@ -1,0 +1,49 @@
+$statement-padding: 10px;
+
+.chicago-veg-info-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+
+    h3 {
+        margin-top: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    a {
+        color: black;
+    }
+
+    a:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .missionStatementBox {
+        background-color: #D2801E;
+        flex-basis: 25%;
+        padding: $statement-padding;
+    }
+    .whyVegBox {
+        background-color: #E52B50;
+        flex-basis: 25%;
+        padding: $statement-padding;
+    }
+    .donateBox {
+        background-color: #958b59;
+        flex-basis: 25%;
+        padding: $statement-padding;
+    }
+    .programBox {
+        background-color: #7c415d;
+        flex-basis: 25%;
+        padding: $statement-padding;
+    }
+
+    .statement-text {
+        display: flex;
+        gap: 5px;
+    }
+}
