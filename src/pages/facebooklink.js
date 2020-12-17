@@ -2,7 +2,7 @@ import React from "react";
 
 const FacebookLink = () => {
   return (
-    <>
+    <div className="center">
       <p className="text-center sponsor-text">Like Us On Facebook!</p>
       <div id="fb-root"></div>
       <script
@@ -29,12 +29,14 @@ const FacebookLink = () => {
           className="fb-xfbml-parse-ignore"
         >
           <a href="https://www.facebook.com/chicagoveg">
-            ChicagoVeg - Chicagoland Vegetarian, Vegan, and Raw Foodist
-            Community
+              <p className="text-center">
+                ChicagoVeg - Chicagoland Vegetarian, Vegan, and Raw Foodist
+                Community
+              </p>
           </a>
         </blockquote>
       </div>
-    </>
+    </div>
   );
 };
 

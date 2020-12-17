@@ -1,6 +1,22 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-item {
+
+}
+
 //positioning
 .text-center {
   text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 // listing 
@@ -15,8 +31,6 @@ ul.list-inline {
     padding-right: 5px;
   }
 }
-
-
 
 // images
 .text-wrap-image {

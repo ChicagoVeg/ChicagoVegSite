@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const ResourcesPage = () => (
   <Layout>
@@ -15,8 +15,7 @@ const ResourcesPage = () => (
             target="_blank"
             title="Anderson's Eating Video"
             rel="noreferrer"
-          >
-          </a>
+          />
           <p className="">
             "Anderson's Eating DVD is a gift to humanity. This has changed my
             life forever! Do yourself a favor and buy 10 of these for your
@@ -115,7 +114,8 @@ const ResourcesPage = () => (
               Chicagoveg on Myspace
             </a>
           </li>
-        </ul>{" "}
+        </ul>
+        {' '}
       </article>
     </section>
   </Layout>

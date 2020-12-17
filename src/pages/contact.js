@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import axios from "axios";
+import React, { useRef } from 'react';
+import axios from 'axios';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const ContactPage = () => {
   const captcha = useRef();
@@ -15,7 +15,7 @@ const ContactPage = () => {
     const captchaValue = captcha.current.value();
 
     if (captchaValue) {
-      alert("Captcha was not correctly identified");
+      alert('Captcha was not correctly identified');
       return;
     }
 
@@ -25,7 +25,7 @@ const ContactPage = () => {
     const gRecaptchaResponse = captcha.current.value;
 
     // enable spinner
-    //window.chicagoVeg.spinner.spin($('#sending-message-spinner')[0]);
+    // window.chicagoVeg.spinner.spin($('#sending-message-spinner')[0]);
     submit.current.disabled = true;
 
     axios
@@ -34,19 +34,19 @@ const ContactPage = () => {
           name,
           email,
           message,
-          "g-recaptcha-response": gRecaptchaResponse,
+          'g-recaptcha-response': gRecaptchaResponse,
         },
       })
       .then((response) => {
-        nameBox.value = "";
-        emailBox.value = "";
-        messageBox.value = "";
+        nameBox.value = '';
+        emailBox.value = '';
+        messageBox.value = '';
 
-        alert("Message Sent - Thank You!");
+        alert('Message Sent - Thank You!');
         console.log(response);
       })
       .catch((error) => {
-        alert("message was not sent");
+        alert('message was not sent');
         console.error(error);
       })
       .then(() => {
@@ -98,7 +98,7 @@ const ContactPage = () => {
                     rows="5"
                     placeholder="message"
                     ref={messageBox}
-                  ></textarea>
+                  />
                 </div>
                 <div>
                   <div
@@ -106,7 +106,7 @@ const ContactPage = () => {
                     data-sitekey="6LdW6RQTAAAAALjqcbQg9AG7S8-nmJGJXe_g3ft4"
                     data-theme="light"
                     ref={captcha}
-                  ></div>
+                  />
                 </div>
               </div>
               <div className="form-control">
@@ -129,12 +129,13 @@ const ContactPage = () => {
             </form>
           </div>
           <div>
-            <div id="messageSent" style={{ display: "none" }}>
+            <div id="messageSent" style={{ display: 'none' }}>
               <span className="">Message was sent</span>
             </div>
-            <div id="messageNotSent" style={{ display: "none" }}>
+            <div id="messageNotSent" style={{ display: 'none' }}>
               <span className="">
-                Message was not sent. Ensure you are connected to the internet{" "}
+                Message was not sent. Ensure you are connected to the internet
+                {' '}
               </span>
             </div>
           </div>

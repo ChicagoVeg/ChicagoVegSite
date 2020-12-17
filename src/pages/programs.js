@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const ProgramsPage = () => (
   <Layout>
@@ -15,7 +15,10 @@ const ProgramsPage = () => (
         />
         <p className="">
           In addition to our general monthly events which are published on
-          <a href="http://www.meetup.com/ChicagoVeg/">Meetup.com/ChicagoVeg</a>,
+          {' '}
+          {' '}
+          <a href="http://www.meetup.com/ChicagoVeg/">Meetup.com/ChicagoVeg</a>
+          ,
           we also offer separate programs to better accommodate specific
           interests or segments of the community. Different programs normally
           based on separate Meetup groups:

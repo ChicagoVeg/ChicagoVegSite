@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const OutreachPage = () => (
   <Layout>
@@ -27,7 +27,7 @@ const OutreachPage = () => (
         </p>
 
         <h3>
-            3 factors that make ChicagoVeg Outreach different:
+          3 factors that make ChicagoVeg Outreach different:
         </h3>
         <ul className="">
           <li>
@@ -51,13 +51,15 @@ const OutreachPage = () => (
 
         <p className="">
           Please watch for our upcoming events to participate in raising
-          consciousness in our community:{" "}
+          consciousness in our community:
+          {' '}
           <a href="http://www.Meetup.com/ChicagoVegOutreach" target="_blank" rel="noreferrer">
             Meetup.com/ChicagoVegOutreach
           </a>
           . For any questions, suggestions, or if you would like to help
           organize ChicagoVeg Outreach events, please contact the group
-          <a href="contact.html">Organizers</a>.
+          <a href="contact.html">Organizers</a>
+          .
         </p>
         <p className="">~ BE THE CHANGE! ~</p>
       </article>

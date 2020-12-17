@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const HistoryPage = () => (
   <Layout>
@@ -26,10 +26,13 @@ const HistoryPage = () => (
           <br />
           ChicagoVeg rapidly grew from just a few hundred members' group to the
           largest Chicagoland Vegan &amp; Vegetarian group with over 3,000
-          members (check{" "}
+          members (check
+          {' '}
           <a href="http://chicagoveg.org/" target="_blank" rel="noreferrer">
-            www.ChicagoVeg.org{" "}
-          </a>{" "}
+            www.ChicagoVeg.org
+            {' '}
+          </a>
+          {' '}
           for the current number) and over 4,000 Facebook fans (
           <a href="http://www.Facebook.com/ChicagoVeg" target="_blank" rel="noreferrer">
             www.Facebook.com/ChicagoVeg
@@ -41,38 +44,52 @@ const HistoryPage = () => (
           </a>
           )!
           <br />
-          In addition to having more members,{" "}
+          In addition to having more members,
+          {' '}
           <a href="http://chicagoveg.org/" target="_blank" rel="noreferrer">
-            www.ChicagoVeg.org{" "}
-          </a>{" "}
-          continually offers significantly more events than any of its peer
-          groups. During 2012,{" "}
-          <a href="http://chicagoveg.org/" target="_blank" rel="noreferrer">
-            www.ChicagoVeg.org{" "}
-          </a>{" "}
-          offered 34 events (not counting events of our satellite groups:{" "}
-          <a href="http://www.meetup.com/ChicagoVegCooking/" target="_blank" rel="noreferrer">
-            ChicagoVeg Cooking{" "}
+            www.ChicagoVeg.org
+            {' '}
           </a>
-          ,{" "}
+          {' '}
+          continually offers significantly more events than any of its peer
+          groups. During 2012,
+          {' '}
+          <a href="http://chicagoveg.org/" target="_blank" rel="noreferrer">
+            www.ChicagoVeg.org
+            {' '}
+          </a>
+          {' '}
+          offered 34 events (not counting events of our satellite groups:
+          {' '}
+          <a href="http://www.meetup.com/ChicagoVegCooking/" target="_blank" rel="noreferrer">
+            ChicagoVeg Cooking
+            {' '}
+          </a>
+          ,
+          {' '}
           <a href="http://www.meetup.com/ChicagoVegKids/" target="_blank" rel="noreferrer">
             ChicagoVeg Kids
           </a>
-          , and{" "}
+          , and
+          {' '}
           <a href="http://www.meetup.com/ChicagoVegOutreach/" target="_blank" rel="noreferrer">
             ChicagoVeg Outreach
           </a>
           )!
           <br />
-          We also made history by organizing the very first{" "}
+          We also made history by organizing the very first
+          {' '}
           <a href="http://chicago.veggiepride.com">
-            {" "}
-            Chicago Veggie Pride Parade (CVPP){" "}
+            {' '}
+            Chicago Veggie Pride Parade (CVPP)
+            {' '}
           </a>
-          . Visit the official CVPP website at{" "}
+          . Visit the official CVPP website at
+          {' '}
           <a href="http://chicago.veggiepride.com" target="_blank" rel="noreferrer">
             chicago.veggiepride.com
-          </a>{" "}
+          </a>
+          {' '}
           and consider joining the Team to help with organizing the annual CVPP
           (
           <a href="http://www.Meetup.com/ChicagoVeggiePride" target="_blank" rel="noreferrer">

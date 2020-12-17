@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const CookingPage = () => (
   <Layout>
@@ -41,7 +41,8 @@ const CookingPage = () => (
         </p>
 
         <p className="">
-          You can find the meetup page at:{" "}
+          You can find the meetup page at:
+          {' '}
           <a href="http://www.meetup.com/ChicagoVegCooking/" target="_blank" rel="noreferrer">
             http://www.meetup.com/ChicagoVegCooking/
           </a>

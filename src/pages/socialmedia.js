@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
 
 const SocialMedia = () => {
   const openSocialMedia = (e) => {
     const target = e.currentTarget;
 
-    const url = target.dataset.url;
-    const top = "500";
-    const left = "500";
-    const width = "400";
-    const height = "400";
-    const chicagoVegSite = 'http://www.chicagoveg.com';                      
+    const { url } = target.dataset;
+    const top = '500';
+    const left = '500';
+    const width = '400';
+    const height = '400';
+    const chicagoVegSite = 'http://www.chicagoveg.com';
 
     window.open(
-        `${url}${chicagoVegSite},  _blank, toolbar=no, scrollbars=yes, resizable=yes, top= ${top}, left=${left}, width=${width}, height=${height}`
+      `${url}${chicagoVegSite},  _blank, toolbar=no, scrollbars=yes, resizable=yes, top= ${top}, left=${left}, width=${width}, height=${height}`,
     );
   };
 
@@ -27,12 +27,12 @@ const SocialMedia = () => {
               data-url="http://twitter.com/share?text=Check out ChicagoVeg- ;url="
               onClick={openSocialMedia}
             >
-              <img src={require("../images/twitter.png")} alt="Twitter" />
+              <img src={require('../images/twitter.png')} alt="Twitter" />
             </button>
           </li>
           <li>
             <a href="./contact.html">
-              <img src={require("../images/email.png")} alt="Contact" />
+              <img src={require('../images/email.png')} alt="Contact" />
             </a>
           </li>
           <li>
@@ -41,7 +41,7 @@ const SocialMedia = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={require("../images/meetup.png")} alt="Meetup" />
+              <img src={require('../images/meetup.png')} alt="Meetup" />
             </a>
           </li>
           <li>
@@ -50,7 +50,7 @@ const SocialMedia = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-instagram instagramFooterImage"></i>
+              <i className="fa fa-instagram instagramFooterImage" />
             </a>
           </li>
         </ul>

@@ -1,5 +1,5 @@
-import React from "react";
-import SEO from "../components/seo";
+import React from 'react';
+import SEO from '../components/seo';
 
 const Sponsors = () => (
   <>
@@ -7,8 +7,8 @@ const Sponsors = () => (
     <section>
       <article>
         <h3 className="text-center">Sponsors</h3>
-        <ul className="list-inline text-center">
-          <li>
+        <div className="sponsors">
+          <div className="sponsor-item">
             <a
               href="https://www.facebook.com/PurpleSproutCafe"
               target="_blank"
@@ -23,8 +23,8 @@ const Sponsors = () => (
                 height="120"
               />
             </a>
-          </li>
-          <li>
+          </div>
+          <div className="sponsor-item">
             <a
               href="http://quesadillalareinadelsur.com/"
               target="_blank"
@@ -39,8 +39,8 @@ const Sponsors = () => (
                 height="120"
               />
             </a>
-          </li>
-          <li>
+          </div>
+          <div className="sponsor-item">
             <a
               href="http://aliceandfriendsvegankitchen.com"
               target="_blank"
@@ -50,13 +50,13 @@ const Sponsors = () => (
               <img
                 src={require('../images/AliceFriendsWeb.jpg')}
                 className=""
-                alt="Alice and friends restaurant pic"
+                alt="Adivce and friends restaurant pic"
                 width="166"
                 height="120"
               />
             </a>
-          </li>
-          <li>
+          </div>
+          <div className="sponsor-item">
             <a
               href="https://smile.amazon.com/ch/46-1670886"
               target="_blank"
@@ -71,8 +71,8 @@ const Sponsors = () => (
                 height="120"
               />
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </article>
     </section>
   </>

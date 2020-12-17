@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const FamilyKidsPage = () => (
   <Layout>
@@ -14,7 +14,7 @@ const FamilyKidsPage = () => (
           also welcome non-veg families who are interested in the veg lifestyle.
           We strive to create a growing network of families who live in Chicago
           and the suburbs. Here we will build friendships, share advice and
-          support our families' journeys! As parents, we want to guide our
+          support our families&#39;` journeys! As parents, we want to guide our
           children to eat nourishing foods, act compassionately towards others,
           and/or be thoughtful about the Earth. ChicagoVeg Kids is where veg
           kids are the norm, not the exception.

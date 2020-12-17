@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const SponsorUsPage = () => (
   <Layout>
@@ -23,8 +23,11 @@ const SponsorUsPage = () => (
           other expenses) local businesses would be able to advertise as a proud
           sponsor of our community group and, most importantly, they will have a
           low-cost "targeted" advertisement as we will place the company logo
-          and web site in the sponsorship areas of this and our{" "}
-          <a href="http://www.meetup.com/ChicagoVeg">meetup website </a> (which
+          and web site in the sponsorship areas of this and our
+          {' '}
+          <a href="http://www.meetup.com/ChicagoVeg">meetup website </a>
+          {' '}
+          (which
           currently has over 3,500 members).
         </p>
         <p className="">
@@ -33,9 +36,14 @@ const SponsorUsPage = () => (
           perks, discounts, specials, presentations, and more!
         </p>
         <p className="">
-          Please <a href="contact.html">contact us </a> for any
+          Please
+          {' '}
+          <a href="contact.html">contact us </a>
+          {' '}
+          for any
           questions/suggestions or sponsorship referrals.
-        </p>{" "}
+        </p>
+        {' '}
       </article>
     </section>
   </Layout>

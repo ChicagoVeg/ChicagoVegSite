@@ -3,7 +3,7 @@ $statement-padding: 10px;
 .chicago-veg-info-area {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: var(--general-gap);
     justify-content: center;
 
     h3 {
@@ -44,6 +44,6 @@ $statement-padding: 10px;
 
     .statement-text {
         display: flex;
-        gap: 5px;
+        gap: var(--general-gap);
     }
 }

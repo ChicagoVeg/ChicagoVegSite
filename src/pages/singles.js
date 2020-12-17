@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const SInglesPage = () => (
   <Layout>
@@ -10,7 +10,7 @@ const SInglesPage = () => (
         <h2>ChicagoVeg Singles</h2>
         <img
           className="text-wrap-image page-main-image"
-          src={require("../images/singles1.jpeg")}
+          src={require('../images/singles1.jpeg')}
           alt="singles"
         />
         <p className="">
@@ -29,7 +29,7 @@ const SInglesPage = () => (
           <li>Find Friendship</li>
           <li>Connect with someone special!</li>
         </ul>
-        <p></p>
+        <p />
 
         <p className="">
           We support a non-judgmental environment where everybody is welcome to
@@ -42,7 +42,7 @@ const SInglesPage = () => (
         <h3>OUR SUCCESS STORY</h3>
         <div className="singles-success">
           <div className="singles-success-image">
-            <img src={require("../images/singles2.jpeg")} alt="single-story" />
+            <img src={require('../images/singles2.jpeg')} alt="single-story" />
           </div>
           <div className="singles-success-message">
             <p>
@@ -69,7 +69,8 @@ const SInglesPage = () => (
             <p className="">
               Please don't hesitate to contact us for any questions or if you
               would like to help organize ChicagoVeg Singles events. Check out
-              our upcoming events{" "}
+              our upcoming events
+              {' '}
               <a
                 href="http://www.meetup.com/ChicagoVeg"
                 target="_blank"

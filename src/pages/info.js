@@ -1,20 +1,22 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import SEO from '../components/seo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar } from '@fortawesome/free-solid-svg-icons';
+import {
+  faCalendar, faDonate, faQuestion, faBullhorn,
+} from '@fortawesome/free-solid-svg-icons';
+import SEO from '../components/seo';
 
 const Info = () => (
   <>
     <SEO title="Info" />
     <section>
-    <article className="">
+      <article className="">
         <div className="chicago-veg-info-area">
           <div className="missionStatementBox">
             <a href="http://www.meetup.com/ChicagoVeg/events/">
               <h3 className="">News &amp; Events </h3>
               <div className="statement-text">
-                <FontAwesomeIcon icon={faCalendar} size="1x" color="Black" />
+                <FontAwesomeIcon icon={faCalendar} size="2x" color="#1a3300" />
                 <span>Click here for the calendar of our upcoming events.</span>
               </div>
             </a>
@@ -23,7 +25,7 @@ const Info = () => (
             <Link to="/whyveg/">
               <h3 className="">Why Veg?</h3>
               <div className="statement-text">
-                <FontAwesomeIcon icon={faCalendar} size="1x" color="Black" />
+                <FontAwesomeIcon icon={faQuestion} size="2x" color="#1a3300" />
                 <span>Click here to learn why to chose a vegan diet.</span>
               </div>
             </Link>
@@ -32,18 +34,18 @@ const Info = () => (
             <Link to="/donate/">
               <h3 className="">Donate </h3>
               <div className="statement-text">
-                <FontAwesomeIcon icon={faCalendar} size="1x" color="Black" />
+                <FontAwesomeIcon icon={faDonate} size="2x" color="#1a3300" />
                 <span>
                   Click here to help us to promote life-saving plant-based diet!
                 </span>
               </div>
             </Link>
-            </div>
+          </div>
           <div className="programBox">
             <Link to="/programs/">
               <h3 className="">Our Programs </h3>
               <div className="statement-text">
-                <FontAwesomeIcon icon={faCalendar} size="1x" color="Black" />
+                <FontAwesomeIcon icon={faBullhorn} size="2x" color="#1a3300" />
                 <span>
                   Click here to learn about programs we offer to serve the
                   community.
