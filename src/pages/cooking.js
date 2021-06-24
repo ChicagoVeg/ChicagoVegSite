@@ -9,7 +9,7 @@ const CookingPage = () => (
     <section>
       <article className="page">
         <h2> ChicagoVeg Cooking </h2>
-        <StaticImage className="text-wrap-image page-main-image" src="../images/cooking.jpg" alt="cooking" />
+        <StaticImage className="text-wrap-image page-image" src="../images/cooking.jpg" alt="cooking" />
         <p className="">
           ChicagoVeg Cooking is all about tasty plant-based food, sharing
           knowledge and cooking experiences between members, educating each
@@ -50,8 +50,8 @@ const CookingPage = () => (
         </p>
 
         <p className="">
-          *If you haven't already, check out the video "Forks Over Knives" or
-          read "The China Study" by T. Colin Campbell, and "Healthy at 100" by
+          *If you haven&apos;t already, check out the video &quot;Forks Over Knives&quot; or
+          read &quot;The China Study&quot; by T. Colin Campbell, and &quot;Healthy at 100&quot; by
           John Robins
         </p>
       </article>

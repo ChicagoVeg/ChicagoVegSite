@@ -2,6 +2,7 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from './layout';
 import SEO from './seo';
+import whyVegFlyer from '../files/WhyVeg_Flyer.pdf';
 
 const WhyVegPage = () => (
   <Layout>
@@ -9,7 +10,7 @@ const WhyVegPage = () => (
     <section>
       <article className="page">
         <h2>Why Veg</h2>
-        <StaticImage className="text-wrap-image page-main-image" alt="caloric needs" src="../images/CaloricNeeds.gif" />
+        <StaticImage className="text-wrap-image page-image" alt="caloric needs" src="../images/CaloricNeeds.gif" />
         <h3>SOME REASONS TO BECOME VEGAN/VEGETARIAN:</h3>
         <h4>For the Planet</h4>
         <ol className="">
@@ -93,7 +94,7 @@ const WhyVegPage = () => (
         </ol>
         <p className="text-center">
           <span className="italics underline">
-            <a href={require('../files/WhyVeg_Flyer.pdf')}>
+            <a href={whyVegFlyer}>
               printer friendly version
             </a>
           </span>
@@ -181,9 +182,9 @@ const WhyVegPage = () => (
             <ol type="a">
               <li>
                 {' '}
-                L.E. Kelemen et al., "Association of Dietary Protein With
+                L.E. Kelemen et al., &quot;Association of Dietary Protein With
                 Disease and Mortality in a Prospective Study of Postmenopausal
-                Women," American Journal of Epidemiology 161 (2005): 239-49.
+                Women,&quot; American Journal of Epidemiology 161 (2005): 239-49.
               </li>
               <li>
                 {' '}

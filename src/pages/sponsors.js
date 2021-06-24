@@ -20,8 +20,6 @@ const Sponsors = () => (
                 src="../images/PurpleSproutLogo.gif"
                 className=""
                 alt="Purple Sprout Cafe"
-                width="166"
-                height="120"
               />
             </a>
           </div>
@@ -36,8 +34,6 @@ const Sponsors = () => (
                 src="../images/quesadillalareina.jpg"
                 className=""
                 alt="Quesadilla La Reina del Sur"
-                width="166"
-                height="120"
               />
             </a>
           </div>
@@ -52,8 +48,6 @@ const Sponsors = () => (
                 src="../images/AliceFriendsWeb.jpg"
                 className=""
                 alt="Adivce and friends restaurant pic"
-                width="166"
-                height="120"
               />
             </a>
           </div>
@@ -68,8 +62,6 @@ const Sponsors = () => (
                 src="../images/smile-amazon.jpg"
                 className=""
                 alt="Smile Amazon"
-                width="166"
-                height="120"
               />
             </a>
           </div>

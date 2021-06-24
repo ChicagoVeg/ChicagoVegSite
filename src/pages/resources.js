@@ -16,15 +16,15 @@ const ResourcesPage = () => (
             title="Anderson's Eating Video"
             rel="noreferrer"
           >
-            <StaticImage className="text-wrap-image page-main-image" src="../images/Eating3rdEd.jpg" alt="Globe Transformer Video" />
+            <StaticImage className="text-wrap-image page-image" src="../images/Eating3rdEd.jpg" alt="Globe Transformer Video" />
           </a>
           <p className="">
-            "Anderson's Eating DVD is a gift to humanity. This has changed my
+            &quot;Anderson&apos;s Eating DVD is a gift to humanity. This has changed my
             life forever! Do yourself a favor and buy 10 of these for your
             friends and family. You will learn the absolute truth about the
             power of eating the right food. You will know with confidence that
             you are doing the right thing. Learn the secrets to improved health.
-            Learn that it's never too late to start eating right".
+            Learn that it&apos;s never too late to start eating right&quot;.
             <br />
             <br />
             <a

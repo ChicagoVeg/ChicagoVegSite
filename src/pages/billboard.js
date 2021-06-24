@@ -11,7 +11,7 @@ const BillboardPage = () => (
       <article className="page">
         <h2>Billboard</h2>
         <StaticImage
-          className="text-wrap-image page-main-image"
+          className="text-wrap-image page-image"
           src="../images/MIWhyLoveButEatBillboard.jpg"
           alt="change billboard"
         />

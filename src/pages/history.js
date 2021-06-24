@@ -9,7 +9,7 @@ const HistoryPage = () => (
     <section>
       <article className="page">
         <h2>History</h2>
-        <StaticImage className="text-wrap-image page-main-image" src="../images/history.jpeg" alt="history" />
+        <StaticImage className="text-wrap-image page-image" src="../images/history.jpeg" alt="history" />
         <p className="">
           ChicagoVeg was founded on June 23, 2009 through the merger of two
           Meetup groups: Chicago Vegans and Chicago Vegetarians (the both groups
@@ -25,7 +25,7 @@ const HistoryPage = () => (
           vegans/vegetarians and promote veganism/vegetarianism in the Chicago
           area.
           <br />
-          ChicagoVeg rapidly grew from just a few hundred members' group to the
+          ChicagoVeg rapidly grew from just a few hundred members&apos; group to the
           largest Chicagoland Vegan &amp; Vegetarian group with over 3,000
           members (check
           {' '}
@@ -96,7 +96,7 @@ const HistoryPage = () => (
           <a href="http://www.Meetup.com/ChicagoVeggiePride" target="_blank" rel="noreferrer">
             www.Meetup.com/ChicagoVeggiePride
           </a>
-          ). It's both a lot of fun and work that translates to promoting veg*n
+          ). It&apos;s both a lot of fun and work that translates to promoting veg*n
           lifestyle.
           <br />
           2012 was a landmark year as ChicagoVeg finally broke off from being

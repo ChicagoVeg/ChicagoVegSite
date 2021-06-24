@@ -9,7 +9,7 @@ const OutreachPage = () => (
     <section>
       <article className="page">
         <h2>ChicagoVeg Outreach</h2>
-        <StaticImage className="text-wrap-image page-main-image" src="../images/outreach.jpg" alt="outreach" />
+        <StaticImage className="text-wrap-image page-image" src="../images/outreach.jpg" alt="outreach" />
         <p className="">
           ChicagoVeg Outreach is an extension of ChicagoVeg – Chicagoland
           Vegetarian, Vegan, & Raw Food Community.
@@ -45,8 +45,8 @@ const OutreachPage = () => (
             having an additional social/fun time for the participants. This
             group is perfect for vegans, vegetarians, animal, health and
             environmental activists; or anyone who supports them to make the
-            difference around us and in the world! "Think globally - Act
-            locally!"
+            difference around us and in the world! 	&quot;Think globally - Act
+            locally!&quot;
           </li>
         </ul>
 

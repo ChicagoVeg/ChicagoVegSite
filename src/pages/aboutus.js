@@ -9,7 +9,7 @@ const AboutUsPage = () => (
     <section>
       <article className="page">
         <h2>About Us</h2>
-        <StaticImage className="text-wrap-image page-main-image" src="../images/aboutus.jpeg" alt="about us" />
+        <StaticImage className="text-wrap-image page-image" src="../images/aboutus.jpeg" alt="about us" />
         <h3>
           Welcome to ChicagoVeg – Chicagoland Vegetarian, Vegan, Raw Foodist
           Community!

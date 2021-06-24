@@ -9,13 +9,13 @@ const FamilyKidsPage = () => (
     <section>
       <article className="page">
         <h2>ChicagoVeg Families &amp; Kids</h2>
-        <StaticImage className="text-wrap-image page-main-image" src="../images/familykids.jpg" alt="family and kids" />
+        <StaticImage className="text-wrap-image page-image" src="../images/familykids.jpg" alt="family and kids" />
         <p className="">
           Our community supports vegetarian and vegan families with kids. We
           also welcome non-veg families who are interested in the veg lifestyle.
           We strive to create a growing network of families who live in Chicago
           and the suburbs. Here we will build friendships, share advice and
-          support our families&#39;` journeys! As parents, we want to guide our
+          support our families&apos; journeys! As parents, we want to guide our
           children to eat nourishing foods, act compassionately towards others,
           and/or be thoughtful about the Earth. ChicagoVeg Kids is where veg
           kids are the norm, not the exception.

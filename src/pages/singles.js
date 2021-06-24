@@ -10,7 +10,7 @@ const SInglesPage = () => (
       <article className="page">
         <h2>ChicagoVeg Singles</h2>
         <StaticImage
-          className="text-wrap-image page-main-image"
+          className="text-wrap-image page-image"
           src="../images/singles1.jpeg"
           alt="singles"
         />
@@ -68,7 +68,7 @@ const SInglesPage = () => (
             </p>
 
             <p className="">
-              Please don't hesitate to contact us for any questions or if you
+              Please don&apos;t hesitate to contact us for any questions or if you
               would like to help organize ChicagoVeg Singles events. Check out
               our upcoming events
               {' '}

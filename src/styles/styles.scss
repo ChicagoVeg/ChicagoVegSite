@@ -1,16 +1,22 @@
 // configurations
 @import 'font';
 @import 'const';
-@import '_base';
-@import '_layout';
-@import '_theme';
+@import 'base';
+@import 'layout';
+@import 'theme';
+
+// page parts
+@import './utils/carousel';
+@import './utils/header';
 
 // pages
-@import 'nav';
-@import 'index';
-@import 'info';
-@import 'donate';
-@import 'singles';
-@import 'contact';
-@import 'sponsors';
-@import 'footer';
+@import './pages/index';
+@import './pages/info';
+@import './pages/donate';
+@import './pages/singles';
+@import './pages/contact';
+@import './pages/sponsors';
+@import './pages/footer';
+
+// third party packages changes
+@import './utils/third-party-extensions.scss';

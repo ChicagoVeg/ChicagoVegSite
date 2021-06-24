@@ -1,0 +1,12 @@
+// changes to third party packages
+
+// carousel
+.carousel {
+    .control-next.control-arrow:before {
+        border-left: var(--carousel-arrow-color) !important;
+    }
+
+    .control-prev.control-arrow:before {
+        border-right: var(--carousel-arrow-color) !important;
+    }
+}

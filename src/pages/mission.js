@@ -9,7 +9,7 @@ const MissionPage = () => (
     <section>
       <article className="page">
         <h2>Our Mission</h2>
-        <StaticImage className="text-wrap-image page-main-image" src="../images/mission1.jpg" alt="mission" />
+        <StaticImage className="text-wrap-image page-image" src="../images/mission1.jpg" alt="mission" />
         <h3>
           Provide a community for local vegans/vegetarians and educate the
           public about the advantages of a plant-based diet.

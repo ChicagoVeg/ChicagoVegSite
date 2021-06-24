@@ -17,7 +17,7 @@ const DonateBox = () => (
         alt="PayPal - The safer, easier way to pay online!"
       />
       <img
-        className="text-wrap-image page-main-image"
+        className="text-wrap-image page-image"
         alt="Donate"
         border="0"
         src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"

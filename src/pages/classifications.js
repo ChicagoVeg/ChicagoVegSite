@@ -9,7 +9,7 @@ const ClassificationsPage = () => (
     <section>
       <article className="page">
         <h2>Classifications</h2>
-        <StaticImage className="text-wrap-image page-main-image" src="../images/classification.jpeg" alt="classification" />
+        <StaticImage className="text-wrap-image page-image" src="../images/classification.jpeg" alt="classification" />
         <p>
           A Vegetarian is someone who follows a plant-based diet. There are five
           general types of vegetarians:

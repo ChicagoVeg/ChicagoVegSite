@@ -10,7 +10,7 @@ const ProgramsPage = () => (
       <article className="page">
         <h2>Programs</h2>
         <StaticImage
-          className="text-wrap-image page-main-image"
+          className="text-wrap-image page-image"
           src="../images/programs2.jpeg"
           alt="Programs"
         />

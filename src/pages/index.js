@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <section>
       <article>
-        <h1 className="index-title">A Chicagoland Vegetarian, Vegan, &amp; Raw Foodist Community</h1>
+        <h1 className="index-title text-center">A Chicagoland Vegetarian, Vegan, &amp; Raw Foodist Community</h1>
         <p>
           We are a non-for-profit organization to support all vegetarians/vegans
           and educate the public about the advantages of a plant-based diet.
