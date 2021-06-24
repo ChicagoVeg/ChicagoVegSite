@@ -1,0 +1,10 @@
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--general-gap);
+    justify-content: center;
+}
+
+.sponsor-item {
+    border: 1px solid #9ab859;
+}
