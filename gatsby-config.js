@@ -1,7 +1,10 @@
 module.exports = {
+  pathPrefix: '/v2',
   siteMetadata: {
     title: 'ChicagoVeg Website',
     author: 'Phil',
+    description: 'ChicagoVeg Website',
+    siteUrl: 'http://www.chicagoveg.com',
   },
   plugins: [
     'gatsby-plugin-sass',

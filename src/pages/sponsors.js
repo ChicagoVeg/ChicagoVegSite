@@ -17,7 +17,7 @@ const Sponsors = () => (
               title="Purple Sprout Cafe"
             >
               <StaticImage
-                src="../images/PurpleSproutLogo.gif"
+                src="../images/PurpleSproutLogo.png"
                 className=""
                 alt="Purple Sprout Cafe"
               />

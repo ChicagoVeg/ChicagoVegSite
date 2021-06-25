@@ -10,7 +10,7 @@ const WhyVegPage = () => (
     <section>
       <article className="page">
         <h2>Why Veg</h2>
-        <StaticImage className="text-wrap-image page-image" alt="caloric needs" src="../images/CaloricNeeds.gif" />
+        <StaticImage className="text-wrap-image page-image" alt="caloric needs" src="../images/CaloricNeeds.png" />
         <h3>SOME REASONS TO BECOME VEGAN/VEGETARIAN:</h3>
         <h4>For the Planet</h4>
         <ol className="">
