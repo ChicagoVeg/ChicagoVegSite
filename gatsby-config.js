@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/v2',
+  pathPrefix: '/demo',
   siteMetadata: {
     title: 'ChicagoVeg Website',
     author: 'Phil',
