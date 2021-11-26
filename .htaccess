@@ -1,3 +1,14 @@
+
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+Options Indexes FollowSymLinks Includes
+
+AddHandler server-parsed .html
+AddType application/x-httpd-php .shtml
+Header set Access-Control-Allow-Origin *
+Header set X-Frame-Options "*"
+
+
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80 
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
@@ -5,98 +16,24 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^(.*)$ https://chicagoveg.com/$1 [R=301,L] 
 
-AddHandler server-parsed .html
-AddHandler server-parsed .html
-AddType application/x-httpd-php .shtml
-Header set Access-Control-Allow-Origin "*"
-
 # For security reasons, Option followsymlinks cannot be overridden.
 # Options +FollowSymLinks
 Options +SymLinksIfOwnerMatch
 # RewriteEngine On
 
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^whyveg$ https://www.chicagoveg.com/whyveg.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^WhyVeg$ https://www.chicagoveg.com/whyveg.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^WHYVEG$ https://www.chicagoveg.com/whyveg.html [R=301]
+# Edited by Vadim
+RewriteRule ^whyveg$ /whyveg.html [R=301,NC,L]
+RewriteRule ^contact$ /contact.html [R=301,NC,L]
+RewriteRule ^donate$ /donate.html [R=301,NC,L]
+RewriteRule ^billboard$ /billboard.html [R=301,NC,L]
+RewriteRule ^kids$ https://www.meetup.com/ChicagoVegKids/ [R=301,NC,L]
+RewriteRule ^suggestion$ https://www.meetup.com/ChicagoVeg/suggestion/ [R=301,NC,L]
+RewriteRule ^thanksgiving$ https://www.meetup.com/ChicagoVeg/events/281302547/  [R=301,NC,L]
+# End - Edited by Vadim
 
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^contact$ https://www.chicagoveg.com/contact.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^Contact$ https://www.chicagoveg.com/contact.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^CONTACT$ https://www.chicagoveg.com/contact.html [R=301]
-
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^donate$ https://www.chicagoveg.com/donate.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^Donate$ https://www.chicagoveg.com/donate.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^DONATE$ https://www.chicagoveg.com/donate.html [R=301]
-
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^billboard$ https://www.chicagoveg.com/billboard.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^Billboard$ https://www.chicagoveg.com/billboard.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^BILLBOARD$ https://www.chicagoveg.com/billboard.html [R=301]
-
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^poll$ https://www.chicagoveg.com/poll.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^Poll$ https://www.chicagoveg.com/poll.html [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^POLL$ https://www.chicagoveg.com/poll.html [R=301]
-
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^suggestion$ https://www.meetup.com/ChicagoVeg/suggestion/ [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^Suggestion$ https://www.meetup.com/ChicagoVeg/suggestion/ [R=301]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^SDAC$ https://www.meetup.com/ChicagoVeg/events/259533436/ [R=301]
-RewriteRule ^sdac$ https://www.meetup.com/ChicagoVeg/events/259533436/ [R=301]
+RewriteCond %{HTTP_HOST} ^.*restaurants.chicagoveg.com [NC]
+RewriteRule ^(.*)$ https://www.chicagoveg.com/$1 [L,R=301,NC]
 
 # php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php73” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
-</IfModule>
+# This domain inherits the “PHP” package.
 # php -- END cPanel-generated handler, do not edit
