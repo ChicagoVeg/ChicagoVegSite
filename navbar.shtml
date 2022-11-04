@@ -56,6 +56,11 @@
                             Sponsor Us
                         </a>
                     </li>
+                    <li>
+                        <a href="more.html" target="_self">
+                            More
+                        </a>
+                    </li>
                 </ul>
             </li>
             <li id="programs" class=" dropdown">
@@ -123,7 +128,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="" href="http://www.meetup.com/ChicagoVeg/pages/ChicagoVeg_Choice/" target="_blank">
+                        <a class="" href="https://chicagoveg.com/chicagovegchoice.html" target="_blank">
                             ChicagoVeg Choice
                         </a>
                     </li>

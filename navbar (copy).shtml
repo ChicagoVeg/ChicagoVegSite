@@ -1,0 +1,140 @@
+<!-- This is always collapsed via a CSS hack () -->
+<nav class="navbar navbar-default navbar-static menuOptions">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"
+            aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand navbar-left">
+            <img class="brand" src="./images/logo.png" alt="ChicagoVeg Main site brand image"
+                title="ChicagoVeg Main site brand image">
+        </a>
+    </div>
+    <div id="navbarCollapse" class="navbar-collapse navbar-right collapse in" aria-expanded="false">
+        <ul class="nav navbar-nav nav-tab">
+            <li id="home" class="">
+                <a class="disabled " href="index.html" target="_self">
+                    Home
+                </a>
+            </li>
+            <li id="aboutus" class=" dropdown">
+                <a class="" href="aboutus.html">
+                    <span>About Us</span> <span class="caret"></span>
+                </a>
+                <ul role="menu" class="dropdown-menu">
+                    <li>
+                        <a href="news.html" target="_self">
+                            News
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="history.html" target="_self">
+                            History
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="mission.html" target="_self">
+                            Mission
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="donate.html" target="_self">
+                            Donate
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="https://www.meetup.com/ChicagoVeg/join" target="_self">
+                            Join Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sponsorus.html" target="_self">
+                            Sponsor Us
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li id="programs" class=" dropdown">
+                <a href="programs.html">
+                    <span>Programs</span> <span class="caret"></span>
+                </a>
+                <ul role="menu" class="dropdown-menu">
+                    <li>
+                        <a class="" href="outreach.html" target="_self">
+                            Outreach
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="cooking.html" target="_self">
+                            Cooking
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="singles.html" target="_self">
+                            Singles
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href=" kids.html" target="_self">
+                            Family/Kids
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href=" billboard.html" target="_self">
+                            Billboard
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li id="meetup" class="">
+                <a class="disabled " href="http://www.meetup.com/ChicagoVeg/" target="_blank">
+                    Meetup
+                </a>
+            </li>
+            <li id="resources" class="">
+                <a class="disabled " href="resources.html" target="_self">
+                    Resources <span class="caret">
+                </a>
+                <ul role="menu" class="dropdown-menu">
+                    <li>
+                        <a class="" href="classifications.html" target="_self">
+                            Classifications
+                        </a>
+                    </li>
+                    <li>
+                        <a href="whyveg.html" target="_self">
+                            Why Veg
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li id="restaurants" class=" dropdown">
+                <a class="dropdown-toggle disabled " href="http://restaurants.chicagoveg.com" target="_blank">
+                    <span>Restaurants</span> <span class="caret"></span>
+                </a>
+                <ul role="menu" class="dropdown-menu">
+                    <li>
+                        <a class="" href="http://restaurants.chicagoveg.com" target="_blank">
+                            Restaurant Finder
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="https://chicagoveg.com/chicagovegchoice.html" target="_blank">
+                            ChicagoVeg Choice
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li id="contactus" class="">
+                <a class="disabled " href="contact.html" target="_self">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</nav-bar>
