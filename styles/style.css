@@ -234,8 +234,12 @@ nav ul ul {
     margin: 10px;
 }
 
-bold {
-    font-weight: bold;
+.bold {
+    font-weight: bold !important;
+}
+
+.italics {
+	font-style: italic !important;
 }
 
 #myCarousel {
