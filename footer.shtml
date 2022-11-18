@@ -1,6 +1,6 @@
 <link href="./styles/style.css" rel="stylesheet">
 <div class="copyright">
-                © <span>2016</span> - <a href="http://chicagoveg.com/" target="_blank"><span class="">ChicagoVeg</span></a> &nbsp; | &nbsp;<a href="contact.html"> Feedback</a>
+                © <span>2016 - Present</span> &nbsp; <a href="http://chicagoveg.com/" target="_blank"><span class="">ChicagoVeg</span></a> &nbsp; | &nbsp;<a href="contact.html"> Feedback</a>
 
             </div>
             <div class="social">
@@ -8,11 +8,6 @@
                     <li>
                         <a href="javascript:void(0)" class="v-data-socialmedia-link" data-url="http://twitter.com/share?text=Check out ChicagoVeg- ;url=" data-top="500" data-left="500" data-width="400" data-height="400">
                             <img src="./images/twitter.png" lazyload="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" class="v-data-socialmedia-link" data-url="https://plus.google.com/share?url" data-top="500" data-left="500" data-width="400" data-height="400">
-                            <img src="./images/google_plus.png" lazyload="">
                         </a>
                     </li>
                     <li>
