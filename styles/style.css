@@ -499,9 +499,9 @@ nav ul ul {
 	display: flex;
 	flex-wrap: wrap;
 	width:100%;
-	justify-content: space-between;
+	justify-content: center;
 	margin-top: 15px;
-	gap: 10px;
+	gap: 20px;
   }
   
 
