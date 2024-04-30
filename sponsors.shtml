@@ -13,6 +13,11 @@
                   <img src="./images/quesadillalareina.jpg" class="sponsor-image" alt="Quesadilla La Reina del Sur" width="166" height="120" lazyload="">
               </a>
           </li>
+          <li>
+            <a href="https://veggiefestchicago.org/" target="_blank" title="Veggie Fest">
+                <img src="./images/VeggieFest3.png" class="sponsor-image" alt="Veggie Fest" width="166" height="120" lazyload="">
+            </a>
+        </li>
       <li>
           <a href="contact.html"  target="_blank" title="Contact us">
               <img src="./images/SupportUs.jpg" class="sponsor-image" alt="Contact us for buiness"  width="166" height="120" lazyload="">
